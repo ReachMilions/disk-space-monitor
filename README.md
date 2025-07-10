@@ -32,6 +32,6 @@ What I learned
 
 How to set up cron?
 ```bash
-  crontab -e
-  # add every day at 3:00
-  0 3 * * * /cesta/k/disk_space_monitor.sh
+crontab -e
+# Add the following line to run the script every day at 3:00 AM
+0 3 * * * /path/to/disk_space_monitor.sh
