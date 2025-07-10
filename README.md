@@ -14,6 +14,7 @@ This is a simple Bash script that checks disk usage and writes it to a log file 
    ```bash
    chmod +x disk_space_monitor.sh
 2. Run the script:
+   ```bash
     ./disk_space_monitor.sh
 3. Check the log file (by default /var/log/disk_space_monitor.log).
 
@@ -30,7 +31,7 @@ What I learned
 - Pushing code to GitHub and creating a project README
 
 How to set up cron?
-
+```bash
   crontab -e
   # add every day at 3:00
   0 3 * * * /cesta/k/disk_space_monitor.sh
