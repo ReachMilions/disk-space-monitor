@@ -13,3 +13,18 @@ This is a simple Bash script that checks disk usage and writes it to a log file 
 1. Give execute permission:
    ```bash
    chmod +x disk_space_monitor.sh
+2. Run the script:
+    ./disk_space_monitor.sh
+3. Check the log file (by default /var/log/disk_space_monitor.log).
+
+Why I built this
+I created this small project to start building my GitHub portfolio, practice Bash scripting, and create a useful tool for system administration monitoring tasks.
+
+What I learned
+- Using df -h to check disk usage
+
+- Writing Bash scripts with timestamping
+
+- Appending outputs to a log file for tracking
+
+- Pushing code to GitHub and creating a project README
