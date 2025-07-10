@@ -28,3 +28,9 @@ What I learned
 - Appending outputs to a log file for tracking
 
 - Pushing code to GitHub and creating a project README
+
+How to set up cron?
+
+  crontab -e
+  # add every day at 3:00
+  0 3 * * * /cesta/k/disk_space_monitor.sh
